@@ -11,3 +11,10 @@ function isPrime(num) {
 
   return true; 
 }
+function evenOdd(num) {
+  if (num % 2 === 0) {
+    return true;  // Even number
+  } else {
+    return false; // Odd number
+  }
+}
